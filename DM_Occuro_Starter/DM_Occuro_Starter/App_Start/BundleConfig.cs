@@ -13,15 +13,15 @@ namespace DM_Occuro_Starter
         private static ScriptBundle GetScriptBundle()
         {
             var scriptBundle = new ScriptBundle("~/bundles/app/scripts");
-
-            scriptBundle.IncludeDirectory("~/Web/", "*.js", true);
-
+            
             var scriptPaths = new[]
             {
                 "~/Scripts/wwwroot/lib/angular/angular.js"
             };
 
             scriptBundle.Include(scriptPaths);
+
+            scriptBundle.IncludeDirectory("~/Web/", "*.js", true);
 
             return scriptBundle;
         }
