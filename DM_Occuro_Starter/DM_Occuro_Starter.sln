@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB", "DM_Occuro_Starter\WEB.csproj", "{3CFD348F-0212-47A8-B7EA-609F2B09D993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{94B8B4D3-D22D-4BB0-831D-7E494CE00E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{ECEF9F43-C768-42A3-AD1B-E2CA8A040D33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFD348F-0212-47A8-B7EA-609F2B09D993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFD348F-0212-47A8-B7EA-609F2B09D993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFD348F-0212-47A8-B7EA-609F2B09D993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFD348F-0212-47A8-B7EA-609F2B09D993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B8B4D3-D22D-4BB0-831D-7E494CE00E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B8B4D3-D22D-4BB0-831D-7E494CE00E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B8B4D3-D22D-4BB0-831D-7E494CE00E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B8B4D3-D22D-4BB0-831D-7E494CE00E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEF9F43-C768-42A3-AD1B-E2CA8A040D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEF9F43-C768-42A3-AD1B-E2CA8A040D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEF9F43-C768-42A3-AD1B-E2CA8A040D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEF9F43-C768-42A3-AD1B-E2CA8A040D33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
